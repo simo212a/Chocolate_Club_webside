@@ -36,6 +36,46 @@ img {
 	background-color: #D4D3B9;
 }
 
-.test{
+body, html {
+	height: 100%;
+}
+
+
+.homepage_picture{
+	background-image: url("../images/Home_page_header.jpg");
+	height: 50vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+
+.homepage_text{
+
+}
+
+.home_om_os{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	transform: translateY(-50%);
+}
+
+@media screen and (min-width: 800px) {
+	.home_om_os {
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+
+.home_home{
+	size: 17pt;
+	alignment: left;
 
 }
