@@ -56,6 +56,7 @@ body, html {
 }
 
 .logo{
+	alignment: center;
 
 }
 
@@ -111,11 +112,20 @@ body, html {
 .home_amalie{
 	size: 17pt;
 	alignment: left;
-	font-family:
+
 
 }
 
 .home_home{
 	size: 17pt;
 	alignment: left;
+}
+
+.tobias_picture {
+	background-image: url("../images/Home_page_header.jpg");
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 }
