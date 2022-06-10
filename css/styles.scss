@@ -33,6 +33,7 @@ img {
 }
 
 .om_os_billed{
+
 }
 
 .rektangel{
@@ -46,7 +47,7 @@ body, html {
 
 
 .homepage_picture{
-	background-image: url("../images/Home_page_header.jpg");
+	background-image: url("../images/Web 1920 – 2 (1) (1).png");
 	height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -60,49 +61,49 @@ body, html {
 }
 
 .logo{
-	alignment: center;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%);
+	top: 20px;
+	left: 20px;
 }
 
 
 .home_amalie{
 	text-align: center;
 	position: absolute;
-	top: 50%;
+	top: 425px;
 	left: 60px;
 	transform: translateY(-50%);
-
+	color: black;
 }
 
 @media screen and (min-width: 900px) {
 	.home_amalie {
 		text-align: center;
 		position: absolute;
-		top: 50%;
-		left: 400px;
+		top: 425px;
+		left: 200px;
 		transform: translateY(-50%);
+		color: black;
 	}
 }
 
 .home_home{
 	text-align: center;
 	position: absolute;
-	top: 400px;
+	top: 375px;
 	left: 60px;
 	transform: translateY(-50%);
 	font-family: 'Joan', serif;
+	color: black;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
 	.home_home {
 		text-align: center;
 		position: absolute;
 		top: 400px;
-		left: 400px;
+		left: 60px;
 		transform: translateY(-50%);
+		color: black;
 	}
 }
 
@@ -111,15 +112,110 @@ body, html {
 		text-align: center;
 		position: absolute;
 		top: 400px;
-		left: 400px;
+		left: 200px;
 		transform: translateY(-50%);
+		color: black;
 	}
 }
 
+.home_tobias{
+	text-align: center;
+	position: absolute;
+	top: 450px;
+	left: 60px;
+	transform: translateY(-50%);
+	font-family: 'Joan', serif;
+	color: black;
+}
 
+@media screen and (min-width: 400px) {
+	.home_tobias {
+		text-align: center;
+		position: absolute;
+		top: 450px;
+		left: 60px;
+		transform: translateY(-50%);
+		color: black;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.home_tobias {
+		text-align: center;
+		position: absolute;
+		top: 450px;
+		left: 200px;
+		transform: translateY(-50%);
+		color: black;
+	}
+}
+
+.home_fredrik{
+	text-align: center;
+	position: absolute;
+	top: 475px;
+	left: 60px;
+	transform: translateY(-50%);
+	font-family: 'Joan', serif;
+	color: black;
+}
+
+@media screen and (min-width: 400px) {
+	.home_fredrik {
+		text-align: center;
+		position: absolute;
+		top: 475px;
+		left: 60px;
+		transform: translateY(-50%);
+		color: black;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.home_fredrik {
+		text-align: center;
+		position: absolute;
+		top: 475px;
+		left: 200px;
+		transform: translateY(-50%);
+		color: black;
+	}
+}
+
+.home_collect{
+	text-align: center;
+	position: absolute;
+	top: 500px;
+	left: 60px;
+	transform: translateY(-50%);
+	font-family: 'Joan', serif;
+	color: black;
+}
+
+@media screen and (min-width: 400px) {
+	.home_collect {
+		text-align: center;
+		position: absolute;
+		top: 500px;
+		left: 60px;
+		transform: translateY(-50%);
+		color: black;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.home_collect {
+		text-align: center;
+		position: absolute;
+		top: 500px;
+		left: 200px;
+		transform: translateY(-50%);
+		color: black;
+	}
+}
 
 .home_amalie{
-	size: 17pt;
+	size: 20pt;
 	alignment: left;
 
 
