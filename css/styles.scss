@@ -32,8 +32,12 @@ img {
 	height: auto;
 }
 
+.om_os_billed{
+}
+
 .rektangel{
 	background-color: #D4D3B9;
+	position: absolute;
 }
 
 body, html {
@@ -58,8 +62,9 @@ body, html {
 .logo{
 	alignment: center;
 	position: absolute;
-
-
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 
@@ -69,6 +74,7 @@ body, html {
 	top: 50%;
 	left: 60px;
 	transform: translateY(-50%);
+
 }
 
 @media screen and (min-width: 900px) {
@@ -84,9 +90,10 @@ body, html {
 .home_home{
 	text-align: center;
 	position: absolute;
-	top: 450px;
+	top: 400px;
 	left: 60px;
 	transform: translateY(-50%);
+	font-family: 'Joan', serif;
 }
 
 @media screen and (min-width: 400px) {
@@ -124,7 +131,7 @@ body, html {
 }
 
 .tobias_picture {
-	background-image: url("../images/Home_page_header.jpg");
+	background-image: url("../Images/Tobias_header.png");
 	height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -149,4 +156,14 @@ body, html {
 	top: 50%;
 	left: 60px;
 	transform: translateY(-50%)
+}
+
+@media screen and (min-width: 900px) {
+	.amalie_amalie {
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 400px;
+		transform: translateY(-50%);
+	}
 }
