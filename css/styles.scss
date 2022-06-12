@@ -69,7 +69,7 @@ body, html {
 .home_amalie{
 	text-align: center;
 	position: absolute;
-	top: 425px;
+	top: 400px;
 	left: 60px;
 	transform: translateY(-50%);
 	color: black;
@@ -103,6 +103,7 @@ body, html {
 		top: 400px;
 		left: 60px;
 		transform: translateY(-50%);
+		font-family: 'Joan', serif;
 		color: black;
 	}
 }
@@ -114,11 +115,46 @@ body, html {
 		top: 400px;
 		left: 200px;
 		transform: translateY(-50%);
+		font-family: 'Joan', serif;
 		color: black;
 	}
 }
 
 .home_tobias{
+	text-align: center;
+	position: absolute;
+	top: 425px;
+	left: 60px;
+	transform: translateY(-50%);
+	font-family: 'Joan', serif;
+	color: black;
+}
+
+@media screen and (min-width: 400px) {
+	.home_tobias {
+		text-align: center;
+		position: absolute;
+		top: 425px;
+		left: 60px;
+		transform: translateY(-50%);
+		font-family: 'Joan', serif;
+		color: black;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.home_tobias {
+		text-align: center;
+		position: absolute;
+		top: 450px;
+		left: 200px;
+		transform: translateY(-50%);
+		font-family: 'Joan', serif;
+		color: black;
+	}
+}
+
+.home_fredrik{
 	text-align: center;
 	position: absolute;
 	top: 450px;
@@ -129,28 +165,30 @@ body, html {
 }
 
 @media screen and (min-width: 400px) {
-	.home_tobias {
+	.home_fredrik {
 		text-align: center;
 		position: absolute;
 		top: 450px;
 		left: 60px;
 		transform: translateY(-50%);
+		font-family: 'Joan', serif;
 		color: black;
 	}
 }
 
 @media screen and (min-width: 900px) {
-	.home_tobias {
+	.home_fredrik {
 		text-align: center;
 		position: absolute;
-		top: 450px;
+		top: 475px;
 		left: 200px;
 		transform: translateY(-50%);
+		font-family: 'Joan', serif;
 		color: black;
 	}
 }
 
-.home_fredrik{
+.home_collect{
 	text-align: center;
 	position: absolute;
 	top: 475px;
@@ -161,44 +199,13 @@ body, html {
 }
 
 @media screen and (min-width: 400px) {
-	.home_fredrik {
-		text-align: center;
-		position: absolute;
-		top: 475px;
-		left: 60px;
-		transform: translateY(-50%);
-		color: black;
-	}
-}
-
-@media screen and (min-width: 900px) {
-	.home_fredrik {
-		text-align: center;
-		position: absolute;
-		top: 475px;
-		left: 200px;
-		transform: translateY(-50%);
-		color: black;
-	}
-}
-
-.home_collect{
-	text-align: center;
-	position: absolute;
-	top: 500px;
-	left: 60px;
-	transform: translateY(-50%);
-	font-family: 'Joan', serif;
-	color: black;
-}
-
-@media screen and (min-width: 400px) {
 	.home_collect {
 		text-align: center;
 		position: absolute;
-		top: 500px;
+		top: 475px;
 		left: 60px;
 		transform: translateY(-50%);
+		font-family: 'Joan', serif;
 		color: black;
 	}
 }
@@ -210,6 +217,7 @@ body, html {
 		top: 500px;
 		left: 200px;
 		transform: translateY(-50%);
+		font-family: 'Joan', serif;
 		color: black;
 	}
 }
