@@ -1,5 +1,9 @@
 .chokolade_plet{
-
+  background-image: url("../Images/Component 2 – 1.png");
+  height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .tobias_picture {
@@ -9,4 +13,41 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.påske_event_billed{
+  position: absolute;
+  top: 1050px;
+  left: 725px
+}
+
+.påske_event_titel{
+  text-align: center;
+  margin-top: -150px;
+}
+
+.påske_event_beskrivelse{
+  text-align: center;
+}
+.btn-secondary{
+  margin-left: 400px;
+  margin-top: 20px;
+}
+
+.håndlavet_æg{
+  width: 550px;
+  padding-left: 160px;
+  margin-top: 20px;
+}
+
+.håndlavet_æg_tekst{
+  text-align: center;
+}
+
+.rektangel_Tobias{
+  background-color: #F8C100;
+  background-size: cover;
+  position: relative;
+  margin-right: -35px;
+  border: #F8C100;
 }
