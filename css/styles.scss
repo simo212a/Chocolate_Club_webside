@@ -60,6 +60,7 @@ body, html {
 	background-color:#9AAFA5 ;
 	background-size: cover;
 	position: relative;
+	margin-right: -10px;
 }
 
 .homepage_home{
@@ -328,11 +329,91 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-
+	margin-right: -30px;
 }
 
 
+.pekan_nugat{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.produkt_navn{
+	text-align: center;
+	margin-top: 5px;
+	font-size: 25px;
+	font-family: "Joan", serif;
 
+}
+.produkt_beskrivelse{
+	text-align: center;
+	line-height: 17px;
+	font-size: 17px;
+	font-family: "Joan", serif;
+
+}
+.pekan_nugat_pris{
+	text-align: center;
+	font-size: 23px;
+	font-family: "Joan", serif;
+	margin-top: 15px;
+}
+
+.gråsten_æble{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.produkt_pris{
+	text-align: center;
+	font-size: 23px;
+	font-family: "Joan", serif;
+}
+
+.karamel{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.hasselnødde_nugat{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.hasselnødde_nougat_titel{
+	text-align: center;
+	margin-top: 5px;
+	font-size: 24px;
+	font-family: "Joan", serif;
+}
+
+
+.sødskærm{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.risalamandel{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.rektangel_amalie {
+	background-color: #9AAFA5;
+	background-size: cover;
+	position: relative;
+	margin-right: -35px;
+	border: #9AAFA5;
+}
+.om_amalie{
+	font-family: 'Joan', serif;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+}
+.om_amalie_brødtekst{
+	font-family: 'Joan', serif;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+}
 
 .kontakt_os_billed{
 
@@ -341,9 +422,4 @@ body, html {
 
 .footer_picture{
 
-}
-
-.pekan_nugat{
-	top: 50px;
-	left: 53px;
 }
