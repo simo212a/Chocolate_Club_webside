@@ -16,7 +16,8 @@
     <meta property="og:description" content="Dette er en webside der representere 3 forskellige chocolatier og deres håndværk på en ny og trendy måde, hvor deres værker bliver showcaset i showroom ">
     <meta property="og:locale" content="da_DK">
 
-s
+    <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
+    <link href="css/Click_and_collect.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
@@ -26,8 +27,8 @@ s
     <div class="col-12; col-md-12; col-xxl-12">
         <div class="homepage_picture">
             <div class="homepage_home">
-                <div class="logo; col-3; col-md-3: col-xl-4">
-                    <img src="Images/plain_logo.png" alt="logo">
+                <div class="logo; col-3; col-md-3: col-xl-4 mx-auto">
+                    <img src="Images/plain_logo.png" alt="logo" style="width: 500px">
                 </div>
                 <a class="home_home" href="index.html"> Home </a>
                 <a class="home_amalie" href="Amalie_Mikkelsen.html">Amalie Mikkelsen</a>
@@ -41,16 +42,34 @@ s
 </header>
 
 <body class="row">
-
     <div class="col-12: col-md-12: col-xl-12">
         <div class="rektangel">
-            <img src="Images/click_&_collect_1_produkt.PNG" alt="">
-            <img src="Images/click_&_collect_2_produkt.PNG" alt="">
-            <img src="Images/click_&_collect_3_produkt.PNG" alt="">
+            <div class="row">
+                 <div class="col-12 mx-auto">
+                     <div class="cc_titel">
+                         Kurven
+                     </div>
+                 </div>
+                <div class="col-2 mx-auto">
+                    <div class="cc_antal">
+                        Antal
+                    </div>
+                </div>
+                <div class="col-4 col-xl-3 mx-auto">
+                    <div class="pekan_nugat_CC">
+                        <img src="Images/pekan_nugat.png" alt="pekan nugat chokolade">
+                    </div>
+                </div>
+                <div class="col-2 mx-auto">
+                    <div class="cc_pris">
+                        Pris
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="col-5">
+<div class="row">
+    <div class="col-6 col-xl-5 mx-auto">
         <form>
             <div class="mb-3">
                 <label for="InputName" class="form-label"></label>
@@ -67,7 +86,7 @@ s
             <button type="submit" class="btn btn-primary">Bestil</button>
         </form>
     </div>
-
+</div>
 </body>
 
 <footer class="row">
