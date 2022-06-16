@@ -7,6 +7,15 @@
   font-size: 30px;
   color: black;
 }
+@media screen and (min-width: 200px) {
+  .cc_titel {
+    text-align: center;
+    font-family: 'Joan', serif;
+    font-size: 100px;
+    color: black;
+  }
+}
+
 .cc_antal{
   text-align: center;
   font-family: 'Joan', serif;
@@ -31,6 +40,16 @@
     margin-right: -250px;
     margin-left: 260px;
     font-size: 25px;
+  }
+}
+@media screen and (min-width: 2000px){
+  .cc_antal{
+    text-align: center;
+    font-family: 'Joan', serif solid;
+    margin-top: 150px;
+    margin-right: -250px;
+    margin-left: 260px;
+    font-size: 90px;
   }
 }
 .cc_pris{
@@ -58,6 +77,16 @@
     margin-right: 260px;
     margin-left: -260px;
     font-size: 25px;
+  }
+}
+@media screen and (min-width: 2000px){
+  .cc_pris{
+    text-align: center;
+    font-family: 'Joan', serif solid;
+    margin-top: 150px;
+    margin-right: 360px;
+    margin-left: -360px;
+    font-size: 90px;
   }
 }
 .pekan_nugat_CC{

@@ -32,9 +32,6 @@ img {
 	height: auto;
 }
 
-.om_os_billed{
-
-}
 
 .rektangel{
 	background-color: #D4D3B9;
@@ -307,17 +304,81 @@ body, html {
 	alignment: left;
 }
 
-.tobias_picture {
-	background-image: url("../Images/Tobias_header.png");
-	height: 100vh;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+
+
+.om_os_billed{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 100px;
+}
+@media screen and (min-width: 400px) {
+	.Om_os_titel {
+		margin-top: 20px;
+		font-size: 12px;
+		font-family: Joan, serif;
+		margin-left: -100px;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.Om_os_titel {
+		margin-top: 20px;
+		font-size: 25px;
+		font-family: Joan, serif;
+		margin-left: -100px;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.Om_os_titel {
+		margin-top: 20px;
+		font-size: 40px;
+		font-family: Joan, serif;
+		margin-left: -100px;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 400px) {
+	.om_os_tekst {
+		margin-top: 20px;
+		font-size: 10px;
+		font-family: "Joan", serif;
+		text-align: left;
+		margin-left: -100;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.om_os_tekst {
+		margin-top: 20px;
+		font-size: 20px;
+		font-family: "Joan", serif;
+		text-align: left;
+		margin-left: -100;
+	}
 }
 
 
-
+@media screen and (min-width: 700px) {
+	.om_os_tekst {
+		margin-top: 20px;
+		font-size: 22px;
+		font-family: "Joan", serif;
+		text-align: left;
+		margin-left: -100;
+	}
+}
+@media screen and (min-width: 1400px){
+	.om_os_tekst {
+		margin-top: 20px;
+		font-size: 22px;
+		font-family: "Joan", serif;
+		text-align: left;
+		margin-left: -100;
+	}
+}
 
 
 
