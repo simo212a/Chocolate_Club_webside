@@ -27,3 +27,19 @@
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.btn{
+  margin-bottom: 15px;
+  margin-left: 130px;
+}
+@media screen and (min-width: 750px){
+  .btn{
+   margin-bottom: 15px;
+   margin-left: 295px;
+  }
+}
+@media screen and (min-width: 1000px){
+  .btn{
+    margin-bottom: 15px;
+    margin-left: 400px;
+  }
+}
